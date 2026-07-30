@@ -260,7 +260,7 @@ h4 {
   justify-content: center;
 }
 
-.image-placeholder {
+.hero-image-placeholder {
   width: 100%;
 
   aspect-ratio: 4/3;
@@ -1048,7 +1048,7 @@ h4 {
   padding: 90px 0;
 }
 
-.product-grid {
+.product-detail-grid {
   display: grid;
 
   grid-template-columns: 1fr 1fr;
@@ -1058,7 +1058,7 @@ h4 {
   align-items: center;
 }
 
-.image-placeholder {
+.product-image-placeholder {
   height: 380px;
 
   border-radius: 22px;
@@ -1115,7 +1115,7 @@ h4 {
 }
 
 @media (max-width: 900px) {
-  .product-grid {
+  .product-detail-grid {
     grid-template-columns: 1fr;
   }
 }
