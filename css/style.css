@@ -936,6 +936,17 @@ h4 {
   color: var(--primary);
 }
 
+.contact-cta .btn-whatsapp {
+  background: white;
+  color: var(--primary);
+}
+
+.contact-cta .btn-whatsapp:hover {
+  background: var(--accent);
+  color: white;
+  transform: translateY(-2px);
+}
+
 @media (max-width: 650px) {
   .cta-buttons {
     flex-direction: column;
