@@ -23,3 +23,25 @@ if (menuToggle && navbar) {
         });
     });
 }
+
+// ==========================================================
+// PRODUCT CARDS — click to expand description
+// ==========================================================
+
+document.querySelectorAll(".product-type-card").forEach(card => {
+    card.setAttribute("aria-expanded", "false");
+
+    const toggle = () => {
+        const isExpanded = card.classList.toggle("expanded");
+        card.setAttribute("aria-expanded", isExpanded ? "true" : "false");
+    };
+
+    card.addEventListener("click", toggle);
+
+    card.addEventListener("keydown", e => {
+        if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            toggle();
+        }
+    });
+});
