@@ -386,7 +386,7 @@ h4 {
 
     transition: opacity 0.35s ease;
 
-    z-index: 1050;
+    z-index: 950;
   }
 
   .nav-overlay.active {
