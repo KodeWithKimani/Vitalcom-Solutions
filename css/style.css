@@ -269,35 +269,19 @@ h4 {
 
   background: white;
 
-  border: 2px dashed #c9d7e7;
-
   border-radius: 25px;
 
-  display: flex;
-
-  flex-direction: column;
-
-  align-items: center;
-
-  justify-content: center;
+  overflow: hidden;
 
   box-shadow: var(--shadow);
 }
 
-.hero-image-placeholder i {
-  font-size: 5rem;
+.hero-image-placeholder img {
+  width: 100%;
 
-  color: var(--secondary);
+  height: 100%;
 
-  margin-bottom: 20px;
-}
-
-.hero-image-placeholder p {
-  margin: 0;
-
-  color: var(--text-light);
-
-  font-weight: 500;
+  object-fit: cover;
 }
 
 /* ==========================================================
@@ -555,27 +539,15 @@ h4 {
 
   background: #edf4fc;
 
-  display: flex;
-
-  flex-direction: column;
-
-  align-items: center;
-
-  justify-content: center;
-
-  gap: 15px;
-
-  color: var(--secondary);
+  overflow: hidden;
 }
 
-.product-image i {
-  font-size: 4rem;
-}
+.product-image img {
+  width: 100%;
 
-.product-image span {
-  color: var(--text-light);
+  height: 100%;
 
-  font-weight: 600;
+  object-fit: cover;
 }
 
 .product-content {
@@ -787,29 +759,17 @@ h4 {
 
   height: 420px;
 
-  display: flex;
-
-  flex-direction: column;
-
-  justify-content: center;
-
-  align-items: center;
-
-  border: 2px dashed #c6d6e8;
+  overflow: hidden;
 
   box-shadow: var(--shadow);
 }
 
-.why-placeholder i {
-  font-size: 5rem;
+.why-placeholder img {
+  width: 100%;
 
-  color: var(--secondary);
+  height: 100%;
 
-  margin-bottom: 20px;
-}
-
-.why-placeholder p {
-  color: var(--text-light);
+  object-fit: cover;
 }
 
 .section-tag {
