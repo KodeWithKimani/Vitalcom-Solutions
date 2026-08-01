@@ -134,9 +134,25 @@ h4 {
   height: 82px;
 }
 
-.logo img {
-  height: 54px;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
 }
+
+.logo img {
+  height: 40px; /* adjust to your logo's actual size */
+  width: auto;
+}
+
+.logo-text {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #000; /* change to match your brand color */
+  white-space: nowrap;
+}
+
 
 .nav-links {
   display: flex;
