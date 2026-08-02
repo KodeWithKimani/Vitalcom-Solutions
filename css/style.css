@@ -131,7 +131,7 @@ h4 {
   align-items: center;
   justify-content: space-between;
 
-  height: 82px;
+  height: 90px;
 }
 
 .logo {
@@ -142,12 +142,12 @@ h4 {
 }
 
 .logo img {
-  height: 40px; /* adjust to your logo's actual size */
+  height: 52px; /* adjust to your logo's actual size */
   width: auto;
 }
 
 .logo-text {
-  font-size: 1.3rem;
+  font-size: 1.45rem;
   font-weight: 700;
   color: #000; /* change to match your brand color */
   white-space: nowrap;
@@ -156,7 +156,7 @@ h4 {
 
 .nav-links {
   display: flex;
-  gap: 34px;
+  gap: 28px;
 }
 
 .nav-links a {
@@ -324,8 +324,6 @@ h4 {
   }
 
   .mobile-menu {
-    order: -1;
-
     display: block;
   }
 
@@ -337,7 +335,7 @@ h4 {
     position: fixed;
 
     top: 0;
-    left: 0;
+    right: 0;
 
     width: min(280px, 78%);
     height: 100vh;
@@ -350,7 +348,7 @@ h4 {
 
     box-shadow: var(--shadow);
 
-    transform: translateX(-100%);
+    transform: translateX(100%);
 
     transition: transform 0.35s ease;
 
