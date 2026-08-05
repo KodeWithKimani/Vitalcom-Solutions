@@ -153,7 +153,6 @@ h4 {
   white-space: nowrap;
 }
 
-
 .nav-links {
   display: flex;
   gap: 28px;
@@ -1110,7 +1109,8 @@ h4 {
 }
 
 .product-type-grid > .product-type-card {
-  flex: 0 1 calc(25% - 16.5px);
+  flex: 0 1 calc(33.333% - 15px);
+  max-width: 360px;
 }
 
 .product-type-grid-3 > .product-type-card {
@@ -1133,6 +1133,8 @@ h4 {
   -webkit-tap-highlight-color: transparent;
 
   transition: var(--transition);
+
+  max-width: 360px;
 }
 
 .product-type-card:hover {
@@ -1148,7 +1150,7 @@ h4 {
 }
 
 .product-type-card .type-image {
-  height: 150px;
+  height: 210px;
 
   background: #edf4fc;
 
@@ -1241,7 +1243,8 @@ h4 {
 }
 
 .spare-items-grid > .spare-item-card {
-  flex: 0 1 calc(16.666% - 11.667px);
+  flex: 1 1 calc(25% - 14px);
+  max-width: calc(25% - 14px);
 }
 
 .spare-item-card {
