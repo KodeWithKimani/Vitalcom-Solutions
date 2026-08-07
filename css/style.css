@@ -1482,12 +1482,14 @@ h4 {
 @media (max-width: 950px) {
   .spare-items-grid > .spare-item-card {
     flex-basis: calc(33.333% - 9.333px);
+    max-width: calc(33.333% - 9.333px);
   }
 }
 
 @media (max-width: 600px) {
   .spare-items-grid > .spare-item-card {
     flex-basis: calc(50% - 7px);
+    max-width: calc(50% - 7px);
   }
 }
 
